@@ -1,5 +1,5 @@
-name: 'Doc-gen'
-description: 'Build docs and commit it to the docs folder.'
+name: 'Docgen'
+description: 'Run the docgen npm script and commit it to the current branch.'
 runs:
   using: 'node12'
   main: 'dist/index.js'
